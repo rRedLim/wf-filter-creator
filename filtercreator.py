@@ -56,9 +56,9 @@ sufixdict = {"punc": "cak",
              "ic": "um",
              "eff": "us"}
 
-
 def get_riven_name(stat1,stat2,stat3):
     return f"{str(prefixdict.get(stat1)).capitalize()}-{prefixdict.get(stat2)}{sufixdict.get(stat3)}"
+
 if __name__ == "__main__":
 	string = ""
 
