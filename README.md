@@ -1,6 +1,6 @@
 
 # Warframe Filter Creator
-## *Simple script for creating filters for WF trade chat.*
+*Simple script for creating filters for WF trade chat.*
 
 ## How to use
 
@@ -43,4 +43,4 @@
     Range: range
     Initial Combo: ic
     Heavy Attack Efficiency: eff
-    
+
