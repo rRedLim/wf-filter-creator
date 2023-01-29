@@ -2,6 +2,10 @@
 # Warframe Filter Creator
 *Simple script for creating filters for WF trade chat.*
 
+## Download
+If you dont have python installed you can download exe file here
+https://github.com/rRedLim/wf-filter-creator/releases/tag/release
+
 ## How to use
 
 - Open input.txt and write stat combinations
