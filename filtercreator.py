@@ -56,7 +56,10 @@ sufixdict = {"punc": "cak",
              "ic": "um",
              "eff": "us"}
 
-def get_riven_name(stat1,stat2,stat3):
+def get_riven_name_2stat(stat1, stat2):
+    return f"{str(prefixdict.get(stat1)).capitalize()}{sufixdict.get(stat2)}"
+
+def get_riven_name_3stat(stat1, stat2, stat3):
     return f"{str(prefixdict.get(stat1)).capitalize()}-{prefixdict.get(stat2)}{sufixdict.get(stat3)}"
 
 if __name__ == "__main__":
@@ -66,12 +69,17 @@ if __name__ == "__main__":
 		stats = [i.replace("\n", "").split() for i in f.readlines()]
 
 	for i in stats:
-		combinations = [' '.join(f) for f in permutations(i, 3)]
+		combinations = [' '.join(f) for f in permutations(i)]
 		for v in combinations:
-			stat1 = v.split(' ')[0]
-			stat2 = v.split(' ')[1]
-			stat3 = v.split(' ')[2]
-			string += get_riven_name(stat1, stat2, stat3)+"\n"
+			if len(v.split(' ')) == 3:
+				stat1 = v.split(' ')[0]
+				stat2 = v.split(' ')[1]
+				stat3 = v.split(' ')[2]
+				string += get_riven_name_3stat(stat1, stat2, stat3)+"\n"
+			if len(v.split(' ')) == 2:
+				stat1 = v.split(' ')[0]
+				stat2 = v.split(' ')[1]		
+				string += get_riven_name_2stat(stat1, stat2)+"\n"
 
 	zalupa = string.split("\n")
 	string = ""
