@@ -49,4 +49,4 @@ https://github.com/rRedLim/wf-filter-creator/releases/tag/release
     Heavy Attack Efficiency: eff
 
 ## TODO
-- Make support for 2+ filters
+- ~Make support for 2+ filters~
