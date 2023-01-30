@@ -8,7 +8,7 @@ https://github.com/rRedLim/wf-filter-creator/releases/tag/release
 
 ## How to use
 
-- Open input.txt and write stat combinations
+- Open input.txt and write stat combinations(works only for 3+)
 - Open filtercreator.py
 - Result will be in output.txt
 
@@ -48,3 +48,5 @@ https://github.com/rRedLim/wf-filter-creator/releases/tag/release
     Initial Combo: ic
     Heavy Attack Efficiency: eff
 
+## TODO
+- Make support for 2+ filters
