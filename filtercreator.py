@@ -79,5 +79,4 @@ if __name__ == "__main__":
 		string += i+"\n"
 	
 	with open("output.txt", 'w+') as f:
-		f.truncate()
 		f.write(string[1:])
