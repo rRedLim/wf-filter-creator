@@ -1,2 +1,2 @@
-ms fr dmg
-punc range eff
+ms dmg heat
+cc cd fr
