@@ -8,7 +8,7 @@ https://github.com/rRedLim/wf-filter-creator/releases/tag/release
 
 ## How to use
 
-- Open input.txt and write stat combinations(works only for 3+)
+- Open input.txt and write stat combinations
 - Open filtercreator.py
 - Result will be in output.txt
 
