@@ -1,6 +1,6 @@
 
 # Warframe Filter Creator
-*Simple script for creating filters for WF trade chat.*
+*Simple script for creating filters for Warframe trade chat.*
 
 ## Download
 If you dont have python installed you can download exe file here
