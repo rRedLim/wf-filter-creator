@@ -3,8 +3,7 @@
 *Simple script for creating filters for Warframe trade chat.*
 
 ## Download
-If you dont have python installed you can download exe file here
-https://github.com/rRedLim/wf-filter-creator/releases/tag/release
+If you dont have python installed you can download exe file [here](https://github.com/rRedLim/wf-filter-creator/releases/tag/latest).
 
 ## How to use
 
